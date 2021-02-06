@@ -8,14 +8,16 @@
     tools:context=".home.HomeActivity">
 
     <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabs"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/tabs"
         android:background="?attr/colorPrimary"
-        app:tabTextColor="@android:color/white"
-        app:tabIndicatorColor="@color/white"/>
+        app:tabIndicatorColor="@color/white"
+        app:tabTextColor="@android:color/white" />
+
+
     <androidx.viewpager.widget.ViewPager
-        android:id="@+id/view_pager"
+        android:id="@+id/view_pagerr"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_height="match_parent" />
 </LinearLayout>
