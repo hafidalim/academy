@@ -1,4 +1,4 @@
-package com.example.academy.bookmark
+package com.example.academy.ui.bookmark
 
 import android.content.Intent
 import android.view.LayoutInflater
@@ -9,7 +9,7 @@ import com.bumptech.glide.request.RequestOptions
 import com.example.academy.R
 import com.example.academy.data.CourseEntity
 import com.example.academy.databinding.ItemsBookmarkBinding
-import com.example.academy.detail.DetailCourseActivity
+import com.example.academy.ui.detail.DetailCourseActivity
 
 class BookmarkAdapter(private val callBack : BookmarkFragmentCallback) :  RecyclerView.Adapter<BookmarkAdapter.CourseViewHolder>(){
     inner class CourseViewHolder(private val binding : ItemsBookmarkBinding) : RecyclerView.ViewHolder(binding.root) {

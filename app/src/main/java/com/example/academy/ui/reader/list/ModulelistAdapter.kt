@@ -1,11 +1,10 @@
-package com.example.academy.reader.list
+package com.example.academy.ui.reader.list
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.academy.data.ModuleEntity
 import com.example.academy.databinding.ItemsModuleListCustomBinding
-import com.example.academy.detail.DetailCourseAdapter
 
 class ModulelistAdapter internal constructor(private val listener : MyAdapterClickListener) : RecyclerView.Adapter<ModulelistAdapter.ModuleViewHolder>(){
     private val listModules = ArrayList<ModuleEntity>()

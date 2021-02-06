@@ -1,4 +1,4 @@
-package com.example.academy.academy
+package com.example.academy.ui.academy
 
 import android.content.Intent
 import android.view.LayoutInflater
@@ -10,7 +10,7 @@ import com.example.academy.R
 import com.example.academy.data.CourseEntity
 import com.example.academy.databinding.ItemsAcademyBinding
 
-import com.example.academy.detail.DetailCourseActivity
+import com.example.academy.ui.detail.DetailCourseActivity
 
 class AcademyAdapter : RecyclerView.Adapter<AcademyAdapter.CourseViewHolder>(){
    private var listCourse = ArrayList<CourseEntity>()

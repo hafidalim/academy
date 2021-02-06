@@ -1,4 +1,4 @@
-package com.example.academy.home
+package com.example.academy.ui.home
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

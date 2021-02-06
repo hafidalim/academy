@@ -1,4 +1,4 @@
-package com.example.academy.home
+package com.example.academy.ui.home
 
 import android.content.Context
 import androidx.annotation.StringRes
@@ -6,8 +6,8 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentPagerAdapter
 import com.example.academy.R
-import com.example.academy.academy.AcademyFragment
-import com.example.academy.bookmark.BookmarkFragment
+import com.example.academy.ui.academy.AcademyFragment
+import com.example.academy.ui.bookmark.BookmarkFragment
 
 class SectionsPagerAdapter(private val mContext : Context, fm : FragmentManager) : FragmentPagerAdapter(fm, BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT) {
     companion object{
